@@ -33,3 +33,6 @@ graph LR
     TX --> O2
     TX --> O3
 ```
+
+
+![Diagram](./Talendro.svg)
