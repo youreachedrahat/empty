@@ -13,3 +13,15 @@
 +++ Milestone Tracking
 @endmindmap
 ```
+
+
+```dot
+digraph TalendroSystem {
+    rankdir=TB;
+    node [shape=box];
+    
+    "Talendro System" -> "Identification NFT";
+    "Talendro System" -> "Arbitrator NFT";
+    "Talendro System" -> "Project Management";
+}
+```
