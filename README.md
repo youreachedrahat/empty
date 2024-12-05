@@ -1,25 +1,14 @@
-# empty
-
-```plantuml
-@startuml
-Alice -> Bob : Hello
-Bob --> Alice : Hi
-@enduml
+```mermaid
+graph LR
+    Talendro --> C1(IdentificationNFT)
+    Talendro --> ArbitratorNFT
+    Talendro --> TalendroUserNFT
+    Talendro --> ProjectInit
+      C1 -->  A1(Mint) --> B1(Mint cnf_identification_nft)
+        A1 --> B2[Mint adm_identification_nft]
+        A1 --> B3[Mint sys_identification_nft]
 
 ```
-
-
-```graphviz
-digraph TalendroSystem {
-    rankdir=TB;
-    node [shape=box];
-    
-    "Talendro System" -> "Identification NFT";
-    "Talendro System" -> "Arbitrator NFT";
-    "Talendro System" -> "Project Management";
-}
-```
-
 
 ```mermaid
 graph LR
