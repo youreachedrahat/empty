@@ -24,4 +24,3 @@ graph LR
 ```
 
 
-![Diagram](./Talendro.svg)
